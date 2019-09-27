@@ -11,9 +11,14 @@ body{
     margin: 0;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
 .wrapHeader{
     padding: 0;
-    background: url(../EPAMHtml/Pictures/BackgroundHeader.png) no-repeat center top / cover;
+    background: url(../HTML/Pictures/BackgroundHeader.png) no-repeat center top / cover;
     height: 565px; 
 }
 
@@ -58,7 +63,7 @@ body{
     font-size: 12px;
 }
 
-video{
+.video1{
     height: 325px;
     width: 550px;    
     float: left;
@@ -91,7 +96,7 @@ video{
     position: absolute;
     margin-top: -200px;
     margin-left: -600px;
-    background-image: url(../EPAMHtml/Pictures/leftButton.png); 
+    background-image: url(../HTML/Pictures/leftButton.png); 
     height: 57px;  
     width: 32px;
 }
@@ -101,18 +106,16 @@ video{
     margin-top: -200px;
     display: inline-block;
     position: absolute;
-    background-image: url(../EPAMHtml/Pictures/rightButton.png); 
+    background-image: url(../HTML/Pictures/rightButton.png); 
     height: 57px;  
     width: 32px;
 }
 .sectionFirst{
     padding: 0;
-    background: url(../EPAMHtml/Pictures/BackSection1.png) no-repeat center top / cover;
+    background: url(../HTML/Pictures/BackSection1.png) no-repeat center top / cover;
     height: 212px;
 }
-/* .container:nth-child(2){
-    height: 212px;   
-} */
+
 .services{
     width: 320px;
     float: left;
@@ -138,6 +141,38 @@ video{
 
 .sectionSecond{
     padding: 0;
-    background: url(../EPAMHtml/Pictures/BackSection2.png) no-repeat center top / cover;
+    background: url(../HTML/Pictures/BackSection2.png) no-repeat center top / cover;
     height: 505px;
 } 
+
+
+.contents{
+    height: 110px;
+    text-transform: uppercase; 
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.contentsSectionSecond{
+    
+    width: 341px;
+    height: 232px;
+    float: left;
+    font-size: 20px;
+    color: #000000;    
+}
+
+.contentsSectionSecond:nth-last-child(2){
+
+    width: 315px;
+    
+}
+
+.contentsSectionSecond:last-child{
+    background: url(../HTML/Pictures/LogoTwitter.png) no-repeat center top / cover;
+    width: 330;
+    float: right;
+   
+}
