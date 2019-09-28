@@ -1,4 +1,297 @@
+*{
+    border: 1px solid red;
+}
+@font-face{
+    font-family: Lucida Sans;
+    src: url(fonts/LSANSDI.TTF);
+}
 
+
+@font-face{
+    font-family: Asap;
+    src: url(fonts/Asap-Symbol.otf);
+}
+
+@font-face{
+    font-family: Segoe WP;
+    src: url(fonts/SegoeWP.ttf);
+}
+
+@font-face{
+    font-family: PT Sans;
+    src: url(fonts/PTC55F.ttf);
+}
+
+@font-face{
+    font-family: Open Sans;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 28px;
+}
+
+.wrapHeader{
+    background: url(../HTML/Pictures/BackgroundHeader.png) no-repeat center top / cover;
+    height: 42%; 
+    text-transform: uppercase;
+   
+}
+
+
+.logoHeader{
+    width: 83px;
+    height: 83px;  
+}
+
+.textHeader {
+    margin-left: 1%;
+    font-size: 38px;
+    width: 50px;
+    color: #fff;
+    font-family: "Lucida Sans";
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+
+
+.buttonLeft{
+    display: inline-block;
+    /*position: absolute;*/
+    /*margin-top: -200px;*/
+    /*margin-left: -600px;*/
+    background-image: url(../HTML/Pictures/leftButton.png);
+    height: 57px;
+    width: 32px;
+    margin-top: 147px;
+}
+
+.buttonRight{
+    /*margin-left: 470px;*/
+    /*margin-top: -200px;*/
+    display: inline-block;
+    /*position: absolute;*/
+    background-image: url(../HTML/Pictures/rightButton.png);
+    height: 57px;
+    width: 32px;
+    margin-top: 147px;
+}
+
+.video1{
+    height: 325px;
+    width: 550px;
+    margin-left: -37%;
+
+}
+
+.wrapNav {
+    margin-left: -440px;
+    padding-top: 55px;
+}
+
+.picturesNav{
+    margin-left: 34%;
+    padding-top: 35px;
+    width: 462px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    font-size: 17px;
+    margin-left: 60px;  
+    margin-top:90px;  
+}
+
+.textVideo{
+    margin-left: -34%;
+}
+
+.theColor{
+    color: #f5c506;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 91px;
+    margin-bottom: 0;
+    font-family: Asap;
+}
+
+.theMinimal{
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    margin-top: 32px;
+    font-family: Asap;
+}
+
+/* Первый контейнер */
+.containerSectionOne{
+    padding: 0;
+    display: flex;
+    background-image: url(../HTML/Pictures/BackSection1.png) no-repeat center top / cover;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: uppercase;
+    
+}
+
+.services{
+    width: 342px;
+    height: 213px;
+    text-align: center;    
+}
+
+
+
+/* Второй контейнер */
+
+.containerSectionSecond{
+    background: url(../HTML/Pictures/BackSection2.png) no-repeat center top / cover;
+}
+
+
+.contentsSectionSecond p{
+    width: 34px;
+    height: 231px;
+    background: url(../HTML/Pictures/BackDate.png) no-repeat center top / cover;
+}
+
+.contents h2{
+    font-size: 27px;
+    text-transform: uppercase;
+    scroll-margin-left: 140px;
+    margin-left: 10%;
+    margin-top: 43px;
+    padding: 0;
+    font-family: PT Sans;
+    color:#fff;
+}
+
+.servicFoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    
+}
+.servicFoto p{
+    margin-left: 141px;
+    width: 341px;
+    height: 234px;
+    margin-right: 0;
+    font-size: 20px;
+    font-family: PT Sans;
+    color: #fff;
+}
+
+
+.contentsSectionSecond:nth-last-child(2){
+    
+    height: 234px;   
+    margin-left:-65px;
+}
+
+.video2{
+    width: 315px;
+    height: 234px; 
+}
+
+.contentsSectionSecond:last-child{
+    background: url(../HTML/Pictures/LogoTwitter.png) no-repeat center top / cover;
+    width: 330;  
+    margin-right: 11%;
+}
+
+.date{
+   
+    height: 86px;
+    width: 113px;
+    margin-left: 10%;
+}
+
+.scrol{
+    overflow: scroll; 
+    padding-bottom: 10px;
+    width: 67%; 
+    height: 15px; 
+    padding: 5px; 
+    border: solid 1px black; 
+    margin-left: 10%;
+}
+
+/*Третий контейнет*/
+
+.containerSectionThird{
+    background: url(../HTML/Pictures/BackFooter.png) no-repeat center top / cover;
+}
+
+
+.footerHeading h2{
+    margin: 50px 0 0 26%;
+    color: #f5c506;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: PT Sans;
+    font-size: 31px;
+}
+
+.footerPicturesDevice{
+    width: 563px;
+    height: 300px;
+    margin-top: 13px;
+    margin-left: 3%;
+}
+
+.footerText{
+    padding: 0;
+    width: 343px;
+    margin-right: 4%;
+    margin-top: 106px;
+    font-family: Open Sans;
+    color: #a9a9a7;
+    font-size: 16px;
+
+}
+.footerSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footerLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: url(../HTML/Pictures/BackFooter.png) no-repeat center top / cover;
+}
+
+
+
+
+/* 
 *{
     border: 1px solid red;
 }
@@ -14,6 +307,12 @@ body{
 p{
     margin: 0;
     padding: 0;
+}
+
+footer{
+    padding: 0;
+    background: url(../HTML/Pictures/BackFooter.png) no-repeat center top / cover;
+    height: 563px; 
 }
 
 .wrapHeader{
@@ -153,6 +452,7 @@ p{
     margin: 0;
     font-size: 26px;
     color: #ffffff;
+    background-color: ec9e03;
 }
 
 .contentsSectionSecond{
@@ -163,11 +463,17 @@ p{
     font-size: 20px;
     color: #000000;    
 }
-
+.contentsSectionSecond p{
+    width: 340px;
+    height: 231px;
+    background: url(../HTML/Pictures/BackDate.png) no-repeat center top / cover;
+}
 .contentsSectionSecond:nth-last-child(2){
-
-    width: 315px;
-    
+    width: 315px;    
+}
+.contentsSectionSecond video{
+    width: 312px;
+    height: 231px; 
 }
 
 .contentsSectionSecond:last-child{
@@ -176,3 +482,59 @@ p{
     float: right;
    
 }
+
+.date{
+    float: left;
+    height: 86px;
+    width: 113px;
+    background: url(../HTML/Pictures/LogoDate.png) no-repeat center top / cover;
+}
+
+.scrol{
+    clear: both;
+    overflow: scroll; 
+    padding-bottom: 10px;
+    width: 898px; 
+    height: 15px; 
+    padding: 5px; 
+    border: solid 1px black; 
+}
+
+
+.footerHeading{
+    height: 110px;
+    text-transform: uppercase;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    color: #ffffff;    
+}
+
+
+
+.footerPicturesDevice{
+    float: left;
+   
+}
+
+.footerText {
+    float: right; 
+    margin-top: 100px; 
+}
+
+.footerText li{
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+.footerLogo{
+    height: 65px;
+    padding: 0;
+    clear: both;
+    border-top-color: 10px solid black;
+}
+
+.container:last-child{
+    
+} */
